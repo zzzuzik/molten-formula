@@ -15,6 +15,10 @@ rest_cherrypy:
   host: {{ molten.api_bind_interface }}
   debug: True
   disable_ssl: True
+  socket_queue_size: 500
+  thread_pool: 500
+  log_access_file: /tmp/cherry_access.log
+  log_error_file: /tmp/cherry_error.log
   static: {{ molten.install_dir }}/molten
   static_path: /assets
   app: {{ molten.install_dir }}/molten/index.html
