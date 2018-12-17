@@ -6,6 +6,7 @@
 salt-api-pkg:
   pkg.installed:
     - name: {{ molten.api_package }}
+    - version: {{ molten.api_package_version }}
 
 salt-api-service:
   service.running:
