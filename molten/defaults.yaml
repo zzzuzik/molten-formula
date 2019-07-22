@@ -3,7 +3,7 @@
 molten:
   install_dir: '/opt'
   api_package: 'salt-api'
-  api_package_version: '2018.3.3-1.el7'
+  api_package_version: '2018.3.4-1.el7'
   api_service: 'salt-api'
   api_config: '/etc/salt/master.d/api.conf'
   api_bind_interface: 127.0.0.1
