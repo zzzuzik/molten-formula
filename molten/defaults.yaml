@@ -9,7 +9,7 @@ molten:
   api_bind_interface: 127.0.0.1
   api_bind_port: 8000
   api_users:
-    - nobody
+    - q2user
 
   package:
     version: 0.3.1
